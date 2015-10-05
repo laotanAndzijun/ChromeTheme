@@ -1,0 +1,28 @@
+{
+	"name": "切换页面背景",
+	"version": "2.0",
+	"manifest_version": 2,
+ "theme": {
+    "images" : {
+      "theme_frame" : "2.png",
+      "theme_frame_overlay" : "3.png",
+      "theme_toolbar" : "4.png",
+      "theme_ntp_background" : "bg.png",
+      "theme_ntp_attribution" : "bg.png"
+    },
+    "colors" : {
+      "frame" : [255, 255, 255],
+      "toolbar" : [255, 114, 86],
+      "ntp_text" : [255, 165, 0],
+      "ntp_link" : [255, 255, 0],
+      "ntp_section" : [34, 139, 34],
+      "button_background" : [205, 201, 201]
+    },
+    "tints" : {
+      "buttons" : [0.5, 0.5, 0.5]
+    },
+    "properties" : {
+      "ntp_background_alignment" : "top"
+    }
+  }
+}
